@@ -26,23 +26,19 @@
 		</ul>
 	</nav>
 	<main>
-		<dl>
-			<dt class="category">Full Service Facility</dt>
-			<dd>Veterinarians and staff are on duty 24 hours a day, 
-			7 days a week.</dd>
-			<dt class="category">Years of Experience</dt>
-			<dd>Fish Creek Veterinarians have provided quality, dependable
-			care for your beloved animals since 1984.</dd>
-			<dt class="category">Open Door Policy</dt>
-			<dd>Our professionals welcome owners to stay with their pets
-			during any medical procedure.</dd>
-		</dl>
-		<div>
-			<a id="mobile" href="tel:800-555-5555">800-555-5555</a>
-			<span id="desktop">800-555-5555</span><br>
-			1242 Grassy Lane<br>
-			Fish Creek, WI 55534<br><br>
-		</div>
+		<h2>Contact Fish Creek</h2>
+		<form method="post" action="http://webdevbasics.net/scripts/fishcreek.php">
+			<label for="myName">*Name: </label>
+			<input type="text" name="myName" id="myName"
+			required="required" placeholder="enter first and last name">
+			<label for="myEmail">*E-mail: </label>
+			<input type="email" name="myEmail" id="myEmail"
+			required="required" placeholder="you@domain.com">
+			<label for="myComments">*Comments:</label>
+			<textarea name="myComments" id="myComments" 
+			rows="2" cols="20" required="required"></textarea>
+			<input id="mySubmit" type="submit" value="Send Now">
+		</form>
 	</main>
 	<footer>
 		Copyright &copy; 2016 Fish Creek Animal Hospital<br>
