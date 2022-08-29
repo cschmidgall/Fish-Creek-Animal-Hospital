@@ -44,6 +44,18 @@ footer {
 }
 footer nav { text-align: left; }
 img { border: none; }
+table {
+	margin: auto;
+	border-color: #000066;
+	border-spacing: 0;
+	border-width: 2px;
+	border-collapse: collapse;
+}
+td, th {
+	padding: 0.5em;
+	border-color: #000066;
+	border-width: 1px;
+}
 .category { 
 	background-color: #FFFFFF; 
 	color: #003366; 
