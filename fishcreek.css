@@ -40,7 +40,8 @@ footer {
 	font-style: italic; 
 	text-align: left; 
 	padding: 10px; 
-	margin-left: 180px; 
+	margin-left: 180px;
+	clear: both;
 }
 footer nav { text-align: left; }
 img { border: none; }
@@ -78,6 +79,11 @@ video {
 	font-size: 1.1em; 
 	font-weight: bold; 
 	text-shadow: 1px 1px 1px #667; 
+}
+.shop { 
+	width: 50%; 
+	float: left; 
+	padding: 1em; 
 }
 #wrapper { 
 	width: 80%; 
