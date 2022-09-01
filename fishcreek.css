@@ -67,6 +67,11 @@ input, textarea {
 	display: block;
 	margin-bottom: 1em;
 }
+video {
+	float: right;
+	margin-left: 20px;
+	margin-right: 20px;
+}
 .category { 
 	background-color: #FFFFFF; 
 	color: #003366; 
